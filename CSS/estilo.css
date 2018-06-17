@@ -1,20 +1,21 @@
-.menulista {
-    list-style-type: none;
-    margin: 0;
-    margin-left: 0px;
-    padding: 0;
+#menu {
+    position: relative;
+    float: left;
+    width: 300px;
+    padding: 50px 0;
+}
+
+#lista li {
     overflow: hidden;
     background: gray;
-    position: fixed;
-    top: 0;
     width: 100%;
 }
 
-.itemlista {
-    float: left;
+#lista ul {
+    list-style: none;
 }
 
-.botaolista {
+#lista li a {
     display: block;
     text-align: center;
     padding: 15px 20px;
@@ -22,6 +23,16 @@
     color: white;
 }
 
-.botaolista:hover {
+#lista li a:hover {
     background: rgb(187, 183, 183);
+}
+
+.container {
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+body {
+    background-color: wheat
 }
