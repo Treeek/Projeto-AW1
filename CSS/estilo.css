@@ -56,6 +56,7 @@ html {
     font-family: 'Encode Sans Condensed', sans-serif;
     position: static;
     box-shadow: 0 0 20px black;
+    line-height: 2em;
 }
 
 #main p {
@@ -84,21 +85,60 @@ html {
     border-radius: 50%;
 }
 
-#display-familiars {
+.display-cartas {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
 }
-#display-familiars img{
- width: 215px;
- height: 315px;
 
+.display-cartas img {
+    width: 215px;
+    height: 315px;
 }
-.banner{
+
+.banner {
     justify-content: center;
     display: flex;
 }
-.banner img{
-    width:100%;
-    height: 100%    ;
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.tooltip {
+    text-decoration: none;
+    position: relative;
+}
+
+.tooltip span {
+    display: none;
+    display: none;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    color: black;
+    background: white;
+}
+
+.tooltip span img {
+    float: left;
+    width: 215px;
+    height: 315px;
+}
+
+.tooltip:hover span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: auto;
+    max-width: 320px;
+    min-height: 128px;
+    border: 1px solid black;
+    margin-top: 12px;
+    margin-left: 32px;
+    overflow: hidden;
+    padding: 8px;
 }
