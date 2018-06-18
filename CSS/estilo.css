@@ -1,38 +1,52 @@
-#menu {
-    position: relative;
-    float: left;
-    width: 300px;
-    padding: 50px 0;
+body {
+    background: #202020;
 }
 
-#lista li {
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.menulista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    background: gray;
-    width: 100%;
+    background: #2a2a2a;
+    width: 20%;
+    height: 100%;
+    position: fixed;
 }
 
-#lista ul {
-    list-style: none;
-}
-
-#lista li a {
+.menulista li a {
     display: block;
-    text-align: center;
-    padding: 15px 20px;
     text-decoration: none;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
     color: white;
+    border-bottom: rgba(255, 255, 255, 0.082) solid 1px;
+    font-family: 'Encode Sans Condensed', sans-serif;
 }
 
-#lista li a:hover {
-    background: rgb(187, 183, 183);
+.menulista li a:hover {
+    background: #424141;
 }
 
-.container {
+#container {
     overflow: hidden;
     margin: 0 auto;
-    max-width: 1200px;
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
 }
 
-body {
-    background-color: wheat
+#main {
+    width: 100%;
+    background: #ffffff;
+    padding-left: 400px;
+    padding-right: 30px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    position: static;
 }
