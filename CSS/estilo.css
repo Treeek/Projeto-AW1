@@ -8,18 +8,23 @@ html {
     padding: 0;
 }
 
-.menulista {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+#menu {
     background: #2a2a2a;
     width: 20%;
     height: 100%;
     position: fixed;
 }
 
-.menulista li a {
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+#menu ul li a {
     display: block;
     text-decoration: none;
     text-align: center;
@@ -29,7 +34,7 @@ html {
     font-family: 'Encode Sans Condensed', sans-serif;
 }
 
-.menulista li a:hover {
+#menu ul li a:hover {
     background: #424141;
 }
 
@@ -49,4 +54,15 @@ html {
     padding-right: 30px;
     font-family: 'Encode Sans Condensed', sans-serif;
     position: static;
+}
+#main{
+    font-size: 15px;
+}
+#sobre{
+    justify-content: center;
+}
+#sobre img{
+    margin-left: 50px;
+    width: 190px;
+    height: 190px;
 }
