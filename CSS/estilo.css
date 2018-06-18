@@ -1,5 +1,6 @@
 body {
-    background: #e2e2e2;
+    background: url("../Imagens/island_rtr.jpg");
+    background-attachment: fixed;
 }
 
 body,
@@ -24,8 +25,6 @@ html {
     overflow: hidden;
 }
 
-
-
 #menu ul li a {
     display: block;
     text-decoration: none;
@@ -37,7 +36,7 @@ html {
 }
 
 #menu ul li a:hover {
-    background: #424141;
+    background: #344b8d;
 }
 
 #container {
@@ -58,21 +57,48 @@ html {
     position: static;
     box-shadow: 0 0 20px black;
 }
-#main{
+
+#main p {
+    text-align: justify;
+}
+
+#main {
     font-size: 15px;
 }
-#sobre{
+
+#sobre {
     justify-content: center;
     font-family: 'Encode Sans Codensed', sans-serif;
     color: white;
     text-align: center;
 }
+
 #sobre p {
     font-size: 15px;
 }
-#sobre img{
-width: 150px;
-height: 150px;
-margin-top: 105px;
-border-radius: 50%;
+
+#sobre img {
+    width: 150px;
+    height: 150px;
+    margin-top: 105px;
+    border-radius: 50%;
+}
+
+#display-familiars {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#display-familiars img{
+ width: 215px;
+ height: 315px;
+
+}
+.banner{
+    justify-content: center;
+    display: flex;
+}
+.banner img{
+    width:100%;
+    height: 100%    ;
 }
