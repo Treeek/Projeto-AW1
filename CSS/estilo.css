@@ -1,7 +1,11 @@
-body {
+#background {
     background: url("../Imagens/island_rtr.jpg");
     background-attachment: fixed;
+    z-index: 1;
+    position: relative;
 }
+
+body {}
 
 body,
 html {
@@ -33,7 +37,6 @@ html {
     color: white;
     border-bottom: rgba(255, 255, 255, 0.082) solid 1px;
     font-family: 'Encode Sans Condensed', sans-serif;
-   
 }
 
 #menu ul li a:hover {
@@ -47,20 +50,18 @@ html {
     height: 100%;
     display: flex;
     flex-flow: row nowrap;
-  
 }
 
 #main {
     width: 100%;
     background: #ffffff;
-    padding-left: 400px;
+    padding-left: 430px;
     padding-right: 30px;
     font-family: 'Encode Sans Condensed', sans-serif;
     position: static;
     box-shadow: 0 0 20px black;
     line-height: 1.7em;
     font-size: 15px;
-
 }
 
 #main p {
