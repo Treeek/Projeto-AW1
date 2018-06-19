@@ -50,7 +50,6 @@ html {
     display: flex;
     flex-flow: row nowrap;
     z-index: 2;
-
 }
 
 #main {
@@ -146,4 +145,8 @@ html {
     overflow: hidden;
     padding: 8px;
     z-index: 100;
+}
+
+.primeiro {
+    border-top: rgba(255, 255, 255, 0.082) solid 1px;
 }
