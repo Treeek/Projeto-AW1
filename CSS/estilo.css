@@ -150,19 +150,31 @@ html {
     border-top: rgba(255, 255, 255, 0.082) solid 1px;
 }
 footer{
+
+    opacity: 0.567 ;
     z-index: 4;
     width: 61.579%;
+    padding-top: 20px;
+    padding-bottom: 50px;
     color:white;
-    background: #192c5f;
+    background: #3358bb;
     margin-left: 20%;
-    justify-content: center;
-    height: 50px;
+   text-align: center;
+    height: auto;
     font-family: 'Hind', sans-serif;
 }
 footer span{
     margin-left: 40%;
 }
-.decklist ul{
+footer span a{
+    text-decoration: none;
+    color: white;
+}
+.decklist ul li {
     list-style-type: none;
+}
+
+.decklist > ul > li > p {
     font-weight: bold;
+    margin:0;
 }
