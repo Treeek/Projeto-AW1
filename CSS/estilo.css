@@ -50,7 +50,7 @@ html {
     display: flex;
     flex-flow: row nowrap;
     z-index: 2;
-    padding-bottom: 500px;
+
 }
 
 #main {
@@ -65,7 +65,7 @@ html {
     font-size: 15px;
     z-index: 3;
     height: 100%;
-    
+    padding-bottom: 500px;
 }
 
 #main p {
@@ -128,7 +128,6 @@ html {
 }
 
 .tooltip span img {
-    float: left;
     width: 215px;
     height: 315px;
 }
@@ -143,7 +142,7 @@ html {
     min-height: 128px;
     border: 1px solid black;
     margin-top: 12px;
-    margin-left: -100px;
+    margin-left: -130px;
     overflow: hidden;
     padding: 8px;
     z-index: 100;
