@@ -98,6 +98,7 @@ html {
 .display-cartas img {
     width: 215px;
     height: 315px;
+    margin: 1px;
 }
 
 .banner {
