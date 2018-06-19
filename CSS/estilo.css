@@ -18,7 +18,7 @@ html {
     height: 100%;
     position: fixed;
     box-shadow: 0 0 30px rgb(36, 36, 36);
-    z-index: 4;
+    z-index: 5;
 }
 
 #menu ul {
@@ -149,4 +149,16 @@ html {
 
 .primeiro {
     border-top: rgba(255, 255, 255, 0.082) solid 1px;
+}
+footer{
+    z-index: 4;
+    width: 61.579%;
+    color:white;
+    background: #192c5f;
+    margin-left: 20%;
+    justify-content: center;
+
+}
+footer span{
+    margin-left: 40%;
 }
