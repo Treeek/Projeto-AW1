@@ -117,7 +117,6 @@ html {
 
 .tooltip span {
     display: none;
-    display: none;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
@@ -132,16 +131,16 @@ html {
 }
 
 .tooltip:hover span {
-    display: block;
+    display: flex;
     position: absolute;
     top: 0;
     left: 0;
     width: auto;
-    max-width: 320px;
+    max-width: 100000px;
     min-height: 128px;
     border: 1px solid black;
     margin-top: 12px;
-    margin-left: -130px;
+    margin-left: -100px;
     overflow: hidden;
     padding: 8px;
     z-index: 100;
@@ -161,4 +160,8 @@ footer{
 }
 footer span{
     margin-left: 40%;
+}
+.decklist ul{
+    list-style-type: none;
+    font-weight: bold;
 }
