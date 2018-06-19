@@ -140,7 +140,7 @@ html {
     min-height: 128px;
     border: 1px solid black;
     margin-top: 12px;
-    margin-left: -32px;
+    margin-left: -100px;
     overflow: hidden;
     padding: 8px;
     z-index: 100;
