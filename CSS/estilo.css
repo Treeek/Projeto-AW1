@@ -59,15 +59,12 @@ html {
     position: static;
     box-shadow: 0 0 20px black;
     line-height: 1.7em;
+    font-size: 15px;
 
 }
 
 #main p {
     text-align: justify;
-}
-
-#main {
-    font-size: 15px;
 }
 
 #sobre {
