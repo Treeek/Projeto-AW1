@@ -136,7 +136,7 @@ html {
     position: absolute;
     top: 0;
     left: 0;
-    width: auto;    
+    width: auto;
     min-height: 128px;
     border: 1px solid black;
     margin-top: 12px;
@@ -149,32 +149,36 @@ html {
 .primeiro {
     border-top: rgba(255, 255, 255, 0.082) solid 1px;
 }
-footer{
 
-    opacity: 0.567 ;
+footer {
+
+    opacity: 0.567;
     z-index: 4;
     width: 61.579%;
     padding-top: 20px;
     padding-bottom: 50px;
-    color:white;
+    color: white;
     background: #3358bb;
     margin-left: 20%;
     text-align: center;
     height: auto;
     font-family: 'Hind', sans-serif;
 }
-footer span{
+
+footer span {
     margin-left: 40%;
 }
-footer span a{
+
+footer span a {
     text-decoration: none;
     color: white;
 }
+
 .decklist ul li {
     list-style-type: none;
 }
 
-.decklist > ul > li > p {
+.decklist>ul>li>p {
     font-weight: bold;
-    margin:0;
+    margin: 0;
 }
