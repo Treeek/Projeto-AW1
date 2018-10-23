@@ -43,7 +43,6 @@ html {
 }
 
 #container {
-    overflow: hidden;
     margin: 0 auto;
     width: 1200px;
     height: 100%;
@@ -139,10 +138,10 @@ html {
     width: auto;    
     min-height: 128px;
     border: 1px solid black;
-    margin-top: 12px;
-    margin-left: -100px;
+    margin-top: 0;
+    margin-left: 0;
     overflow: hidden;
-    padding: 8px;
+    padding: 4px;
     z-index: 100;
 }
 
