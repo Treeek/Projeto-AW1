@@ -34,3 +34,52 @@
     background-color: #212529;
     opacity: 0.5;
 }
+
+.tooltipCarta {
+    text-decoration: none;
+    position: relative;
+}
+
+.tooltipCarta span {
+    display: none;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    color: black;
+    background: white;
+    position: absolute;
+}
+
+.tooltipCarta span img {
+    width: 215px;
+    height: 315px;
+}
+
+.tooltipCarta:hover span {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    min-height: 128px;
+    border: 1px solid black;
+    margin-top: 0;
+    margin-left: 0;
+    overflow: hidden;
+    padding: 4px;
+    z-index: 100;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Arvo', Georgia, Times, serif;
+}
+
+p,
+div {
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}

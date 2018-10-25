@@ -5,7 +5,7 @@ document.querySelectorAll("carta-").forEach((tagCarta) => {
             return response.json();
         }).then((carta) => {
             const LINKIMG = carta.image_uris.normal;
-            tagCarta.innerHTML = '<a class="tooltip" href="">' + NOMECARTA + "<span><img src=" + LINKIMG + "></span></a>";
+            tagCarta.innerHTML = '<a class="tooltipCarta" href="">' + NOMECARTA + "<span><img src=" + LINKIMG + "></span></a>";
         });
     }, 100);
 });
