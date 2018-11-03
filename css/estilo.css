@@ -1,5 +1,42 @@
-body{
-    margin-bottom: 300px; 
+#background {
+    padding: 250px;
+    margin-bottom: 50px;
+    background-position: center top;
+    background-image: url("../imagens/Fiel_arte.jpg");
+    filter: grayscale(0.5);
+}
+
+.nav a {
+    font-size: 25px;
+    color: #b89b3b;
+}
+
+.nav a:hover {
+    color: #ffffff;
+}
+
+#header {
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.tituloHeader h1 {
+    font-weight: 800 !important;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+    opacity: 0.5;
+}
+
+body {
+    margin-bottom: 300px;
 }
 
 .tooltipCarta {
@@ -47,4 +84,18 @@ body{
     width: 215px;
     height: 315px;
     margin: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+p,
+div {
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 }
