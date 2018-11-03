@@ -35,6 +35,10 @@
     opacity: 0.5;
 }
 
+body {
+    margin-bottom: 300px;
+}
+
 .tooltipCarta {
     text-decoration: none;
     position: relative;
@@ -51,7 +55,7 @@
 }
 
 .tooltipCarta span img {
-    width: 215px;
+    max-width: 215px;
     height: 315px;
 }
 
@@ -70,13 +74,25 @@
     z-index: 100;
 }
 
+.display-cartas {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.display-cartas img {
+    width: 215px;
+    height: 315px;
+    margin: 1px;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'Arvo', Georgia, Times, serif;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 p,
