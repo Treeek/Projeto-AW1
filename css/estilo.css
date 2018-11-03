@@ -32,3 +32,15 @@
     padding: 4px;
     z-index: 100;
 }
+
+.display-cartas {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.display-cartas img {
+    width: 215px;
+    height: 315px;
+    margin: 1px;
+}
