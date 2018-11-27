@@ -1,8 +1,7 @@
 #background {
     padding: 250px;
     margin-bottom: 50px;
-    background-position: center top;
-    background-image: url("../imagens/Fiel_arte.jpg");
+    background: no-repeat;
     filter: grayscale(0.5);
 }
 
