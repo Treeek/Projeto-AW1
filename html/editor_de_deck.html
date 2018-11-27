@@ -14,8 +14,7 @@
 </head>
 
 <body>
-    <div class="container-fluid" id="background" style="background-image: url('../imagens/Lightning-Axe-Shadows-over-Innistrad-Art.jpg'); background-size: 
-    cover">
+    <div class="container-fluid" id="background" style="background-image: url('../imagens/Lightning-Axe-Shadows-over-Innistrad-Art.jpg'); background-size: cover">
         <nav class="nav justify-content-center fixed-top ">
             <a class="nav-link" href="../index.html">Home</a>
             <a class="nav-link" href="./sobre.html">Sobre mim</a>
@@ -24,11 +23,22 @@
         <header id="header" class="row align-items-center">
             <div class="mx-auto align-middle tituloHeader">
                 <h1>Editor de deck</h1>
-                <h3>Construa listas para usar depois</h3>
+                <h3>Exporte listas para um formato amigavel</h3>
             </div>
         </header>
     </div>
-    <div class="container">
+
+    <div class="container row justify-content-center">
+        <div class="form-group " style="width: 30%">
+            <label for="decklist">Deck List:</label>
+            <textarea class="form-control" id="decklist" style="min-height: 550px;margin-top: 20px;"></textarea>
+            <a class="btn btn-primary btn-light btn-outline-dark btn-block" role="button" onclick="salvaLista()">Salvar</a>
+        </div>
+        <div style="padding-left: 100px;" id="listasel">
+          
+        </div>
+    </div>
+    <div class="container" id="listadecks">
 
     </div>
     <script src="../javascript/editor.js"></script>
