@@ -1,16 +1,3 @@
-async function fetchCarta(nomeCarta) {
-    try {
-        let res = await fetch(`https://api.magicthegathering.io/v1/cards?name="${nomeCarta}"&rarity=Mythic Rare|Common|Uncommon|Rare|Basic Land`);
-        let cartas = await res.json()
-        let carta = cartas.cards[0];
-        return {
-            nome: carta.name,
-            tipo: carta.types,
-        };
-    } catch (err) {
-        console.log(err);
-    }
-}
 function jsontabela(json) {
 
     var cols = Object.keys(json[0]);
@@ -40,6 +27,21 @@ function jsontabela(json) {
         '</tbody></table>';
 
 }
+
+async function fetchCarta(nomeCarta) {
+    try {
+        let res = await fetch(`https://api.magicthegathering.io/v1/cards?name="${nomeCarta}"&rarity=Mythic Rare|Common|Uncommon|Rare|Basic Land`);
+        let cartas = await res.json()
+        let carta = cartas.cards[0];
+        return {
+            nome: carta.name,
+            tipo: carta.types,
+        };
+    } catch (err) {
+        console.log(err);
+    }
+}
+
 function tipoResolver(tipos) {
     const tiposArray = ["Land", "Creature", "Enchantment", "Artifact", "Planeswalker", "Instant", "Sorcery"];
     let maior = tiposArray.length;
